@@ -1,0 +1,60 @@
+/* ============================================== /*
+ *                  Contact Us
+/* ============================================== */
+
+#contactus { margin-top: 60px; padding: 50px 0px; }
+
+.tab_head { padding: 0px 15px; }
+.tab_head .menu_tabs li { margin-bottom: -1px !important; }
+.tab_head .menu_tabs li button { padding: 10px 15px; font-size: 14px; border: 1px solid #ddd; border-radius: 0px; background-color: #fff; }
+.tab_head .menu_tabs li button:hover { background-color: #eee; }
+.tab_head .menu_tabs li button:focus { background-color: #ddd; outline: none; }
+.tab_head .menu_tabs li.active button { font-weight: bold; background-color: #555; color: #fff; border: 1px solid #555; }
+
+#tab_content1 { padding: 15px 0px; }
+#tab_content1 .form #sendmessage { color: #71c55d; border: 1px solid #71c55d; display: none; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content1 .form #sendmessage_ { color: #71c55d; border: 1px solid #71c55d; display: none; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content1 .form #errormessage { color: red; display: none; border: 1px solid red; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content1 .form #sendmessage.show,
+#tab_content1 .form #sendmessage_.show,
+#tab_content1 .form #errormessage.show,
+#tab_content1 .form .show { display: block; }
+#tab_content1 .form .validation { color: red; display: none; margin: 5px 0px 0px 0px; font-weight: 400; font-size: 14px; }
+#tab_content1 .form input,
+#tab_content1 .form textarea { padding: 10px 14px; border-radius: 0; box-shadow: none; font-size: 15px; }
+#tab_content1 .form textarea { resize: none; }
+#tab_content1 .form button { margin-top: 5px; }
+#tab_content1 .form button[type="button"] { background: #555; border: 0; padding: 10px 20px; color: #fff; transition: 0.4s; border-radius: 5px; cursor: pointer; }
+#tab_content1 .form button[type="button"]:hover { background: #333; }
+
+#tab_content2 { padding: 15px 0px; }
+#tab_content2 .form #sendmessage { color: #71c55d; border: 1px solid #71c55d; display: none; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content2 .form #sendmessage_ { color: #71c55d; border: 1px solid #71c55d; display: none; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content2 .form #errormessage { color: red; display: none; border: 1px solid red; text-align: center; padding: 15px; font-weight: 600; margin-bottom: 15px; }
+#tab_content2 .form #sendmessage.show,
+#tab_content2 .form #sendmessage_.show,
+#tab_content2 .form #errormessage.show,
+#tab_content2 .form .show { display: block; }
+#tab_content2 .form .validation { color: red; display: none; margin: 5px 0px 0px 0px; font-weight: 400; font-size: 14px; }
+#tab_content2 .form input,
+#tab_content2 .form textarea { padding: 10px 14px; border-radius: 0; box-shadow: none; font-size: 15px; }
+#tab_content2 .form textarea { resize: none; }
+#tab_content2 .form button { margin-top: 5px; }
+#tab_content2 .form button[type="button"] { background: #555; border: 0; padding: 10px 20px; color: #fff; transition: 0.4s; border-radius: 5px; cursor: pointer; }
+#tab_content2 .form button[type="button"]:hover { background: #333; }
+
+#location { padding: 50px 15px; }
+#location .location { margin: 0 auto; padding: 0px 30px; text-align: center; }
+#location .location img { width: 100%; }
+
+@media (max-width: 767px) {
+	#location .location { padding: 0px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#location .location { padding: 0px 15px; }
+}
+
+@media (min-width: 992px) {
+	#location .location img { width: 70%; }
+}

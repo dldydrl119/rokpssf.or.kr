@@ -1,0 +1,62 @@
+/* ============================================== /*
+ *                 Product_Detail
+/* ============================================== */
+
+#get_banner { position: relative; margin: 0 auto; margin-top: 50px; }
+
+#get_banner .get_banner_head { position: relative; display: flex; border-bottom: 1px solid #aaa; }
+#get_banner .get_banner_head .brand { display: inline-block; padding: 8px; width: 100%; }
+#get_banner .get_banner_head .brand img:nth-child(1) { position: relative; float: left; width: 36px; height: 36px; border-radius: 50%; box-shadow: 0px 0px 2px #555; }
+#get_banner .get_banner_head .brand p:nth-child(2) { float: left; display: inline-block; padding: 7px 0px 7px 8px; font-size: 14px; font-weight: bold; }
+#get_banner .get_banner_head .brand p:nth-child(3) { float: right; display: inline-block; padding: 7px 0px 7px 0px; font-size: 14px; font-weight: bold; color: #59a018; letter-spacing: 1px; }
+#get_banner .get_count { position: absolute; bottom: 12px; left: 12px; margin: 0 auto; padding: 8px 12px; background-color: rgba(0,0,0,0.5); border-radius: 5px; text-shadow: 0px 0px 3px #000; color: #fff; z-index: 999; }
+#get_banner .get_count p { font-size: 14px; }
+#get_banner .get_count b { font-family: 'Notosans-Bold'; margin-left: 5px; margin-right: 2px; font-size: 20px; color: #fff; }
+#get_banner .carousel .item img { margin: 0 auto; width: 100%; }
+#get_banner .carousel .item iframe { display: block; }
+#get_banner .carousel .carousel-control { z-index: 999; }
+
+#product_detail { padding: 16px 0px; border-top: 1px solid #aaa; }
+#product_detail .get_detail { text-align: center; }
+#product_detail .get_detail .collabo { display: flex; position: relative; margin: 0 auto; margin-bottom: 22px; max-width: 290px; }
+#product_detail .get_detail .collabo .logo { display: inline-block; width: 50px; height: 50px; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; border-radius: 50%; box-shadow: 0px 0px 2px #555; }
+#product_detail .get_detail .collabo .logo + p { font-family: 'Notosans-Bold'; font-size: 14px; color: #555; }
+#product_detail .get_detail .collabo .logo.sym_1 { background-image: url("../images/product/round.png"); }
+#product_detail .get_detail .collabo .logo.sym_2 { background-image: url("../images/product/aia.png"); }
+#product_detail .get_detail .collabo .clx { position: absolute; width: 100%; text-align: center; }
+#product_detail .get_detail .collabo .clx p { display: inline-block; font-family: 'NanumGothic'; font-size: 44px; }
+#product_detail .get_detail .product_title { clear: both; margin-bottom: 5px; text-align: left; }
+#product_detail .get_detail .product_title h2 { font-size: 22px; }
+#product_detail .get_detail .hashtag { margin-bottom: 20px; font-size: 13px; text-align: left; color: #0f85bd; }
+#product_detail .get_detail .dday { margin-bottom: 20px; }
+#product_detail .get_detail .dday p { display: inline-block; font-size: 14px; }
+#product_detail .get_detail .dday span { font-size: 24px; font-weight: bold; }
+#product_detail .get_detail .dday span:last-child { margin-left: 2px; font-size: 14px; font-weight: normal; }
+#product_detail .get_detail .more-btn { margin-bottom: 12px; text-align: center; }
+#product_detail .get_detail .more-btn button { padding: 8px 20px 8px 18px; background-color: #59a018; box-shadow: 3px 3px 0px #336307; font-family: 'Notosans-Bold'; font-size: 20px; color: #fff; border: 0px; border-radius: 5px; outline: none; }
+#product_detail .get_detail .more-btn button:hover { background-color: #336307; }
+#product_detail .get_detail .text { margin-bottom: 10px; font-size: 13px; color: #555; }
+#product_detail .get_detail .about_link { font-size: 13px; font-weight: bold; color: #59a018; border-bottom: 1px solid #59a018; }
+
+@media (min-width: 500px) {
+	#get_banner .carousel .item img { width: 50%; }
+}
+
+@media (min-width: 992px) {
+	#get_banner { margin: 0 auto; margin-top: 60px; max-width: 940px; }
+	#product_detail { margin: 0 auto; max-width: 940px; }
+}
+
+@media (min-width: 1200px) {
+	#get_banner { margin: 0 auto; margin-top: 60px; max-width: 1140px; }
+	#product_detail { margin: 0 auto; max-width: 1140px; }
+}
+
+
+/* Bootstrap-Reset */
+.carousel-control { background-image: none !important; font-size: 24px; text-shadow: 0px 0px 5px rgba(0,0,0,1.0); }
+
+/* Bootstrap-Custom */
+.carousel-inner { box-shadow: none; }
+.carousel-indicators li { margin: 1px; width: 12px; height: 12px; background-color: rgba(0, 0, 0, 0.2); box-shadow: 1px 1px 1px #999; border: 0px; }
+.carousel-indicators .active { margin: 1px; background-color: #555; }

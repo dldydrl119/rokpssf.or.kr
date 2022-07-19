@@ -1,0 +1,32 @@
+/* ============================================== /*
+ *                      About
+/* ============================================== */
+
+.faq { padding: 30px 15px; }
+
+#faq_1 { margin-top: 60px; padding: 40px 15px; position: relative; background-image: url("../images/bg/bg.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 50%; }
+#faq_1 .cover { position: absolute; top: 0; left: 0; width: 100%; height: 202px; background-color: rgba(255,255,255,0.5); }
+#faq_1 .section-header { position: relative; margin: 0; }
+#faq_1 .section-header h3 { font-size: 20px; }
+
+#faq_2 { margin: 0 auto; }
+
+#faq_3 .explain { margin-top: 20px; position: relative; display: inline-block; }
+#faq_3 .explain .ex { margin-bottom: 20px; }
+#faq_3 .explain .ex img:nth-child(1) { width: 60%; }
+#faq_3 .explain .ex p:nth-child(2) { margin-top: 8px; font-size: 16px; font-weight: bold; }
+#faq_3 .explain .ex p:nth-child(3) { margin-top: 3px; font-size: 14px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#faq_3 .explain .ex p:nth-child(3) { height: 44px; font-size: 15px; }
+}
+
+@media (min-width: 992px) {
+	#faq_1 { margin-top: 60px; padding: 40px 15px; }
+	#faq_2 { max-width: 940px; padding: 40px 15px; }
+}
+
+/* Bootstrap_Custom */
+.panel-group .panel+.panel { margin-top: 10px; }
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a { line-height: 22px; color: #555; }
+.collapsed:hover, .collapsed:focus { color: #555; }

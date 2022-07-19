@@ -1,0 +1,33 @@
+/* ============================================== /*
+ *                      About
+/* ============================================== */
+
+#about_1 { margin-top: 50px; padding: 40px 15px; position: relative; background-image: url("../images/bg/bg.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 50%; }
+#about_1 .cover { position: absolute; top: 0; left: 0; width: 100%; height: 202px; background-color: rgba(255,255,255,0.5); }
+#about_1 .section-header { position: relative; margin: 0; }
+#about_1 .section-header h3 { font-size: 20px; }
+
+#about_2 { margin: 0 auto; padding: 20px 15px; }
+
+#about_3 { padding: 40px 15px; }
+#about_3 .symbol { margin-top: 5px; margin-bottom: 35px; padding: 0px; text-align: center; }
+#about_3 .symbol img { margin: 30px 0px; width: 100%; max-width: 680px; }
+#about_3 .step_area { clear: both; margin: 0 auto; max-width: 680px; text-align: left; }
+#about_3 .step_area .steps p:nth-child(1) { display: inline-block; margin-bottom: 8px; padding: 5px 10px; font-size: 14px; font-weight: bold; color: #fff; border-radius: 20px; background-color: #a5925f; }
+#about_3 .step_area .steps p:nth-child(1):hover { background-color: #a5925f; cursor: default; }
+#about_3 .step_area .steps p:nth-child(2) { margin-bottom: 20px; padding: 0px 5px; font-size: 14px; color: #555; }
+#about_3 .step_area .steps p:nth-child(3) { padding: 5px; font-size: 12px; color: #777; }
+#about_3 .step_area .steps:last-child p:nth-child(2) { margin: 0; }
+
+#about_4 { padding: 40px 15px; }
+#about_4 .symbol { margin-top: 5px; margin-bottom: 35px; padding: 0px; text-align: center; }
+#about_4 .symbol img { margin: 30px 0px; width: 50%; max-width: 300px; }
+#about_4 .step_area { clear: both; margin: 0 auto; max-width: 680px; text-align: left; }
+#about_4 .step_area .steps p { margin-bottom: 20px; padding: 0px 5px; font-size: 14px; color: #555; }
+
+@media (min-width: 992px) {
+	#about_1 { margin-top: 60px; padding: 40px 15px; }
+	#about_1 .section-header h3 { font-size: 26px; line-height: 32px; }
+	#about_1 .section-header p { font-size: 16px; }
+	#about_2 { max-width: 940px; padding: 40px 15px; }
+}

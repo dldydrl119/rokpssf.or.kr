@@ -1,0 +1,77 @@
+/* ============================================== /*
+*                    Live_view
+/* ============================================== */
+
+#review_view { margin-top: 60px; }
+
+.vboard-contents .header { margin-top: 40px; margin-bottom: 20px; position: relative; border-bottom: 1px solid #aaa; }
+.vboard-contents .header p { margin-bottom: 2px; font-size: 14px; color: #999; }
+.vboard-contents .header h3 { margin-bottom: 12px; }
+.vboard-contents .header .list-info { clear: both; margin-bottom: 10px; display: inline-block; width: 100%; }
+.vboard-contents .header .list-info .writer { display: inline-block; float: left; font-size: 16px; max-width: 370px; }
+.vboard-contents .header .list-info .writer img { width: 26px; height: 26px; margin-right: 5px; box-shadow: 1px 1px 1px 1px #ddd; }
+.vboard-contents .header .list-info .writer span { font-size: 15px; font-weight: bold; vertical-align: middle; color: #333; }
+.vboard-contents .header .list-info .sns { display: inline-block; float: right; padding-top: 2px; font-size: 14px; max-width: 140px; vertical-align: middle; }
+.vboard-contents .header .list-info .sns span { margin-left: 2px; font-size: 15px; font-weight: bold; letter-spacing: 1px; }
+.vboard-contents .header .list-info .sns a { margin-top: 1px; }
+.vboard-contents .header .list-info .sns .like { background-image: url("../images/button/ht.png"); background-position: 0px 18px; width: 17px; height: 18px; display: inline-block; vertical-align: text-top; }
+.vboard-contents .header .list-info .sns .like:hover,
+.vboard-contents .header .list-info .sns .like.on { background-image: url("../images/button/ht.png"); background-position: 0px 18px; width: 17px; height: 18px; display: inline-block; vertical-align: text-top; }
+.vboard-contents .header .list-info .sns .reply { background-image: url("../images/button/chat.png"); background-position: 0px 18px; width: 18px; height: 18px; margin-left: 6px; display: inline-block; vertical-align: text-top; }
+.vboard-contents .header .list-info .sns .reply:hover,
+.vboard-contents .header .list-info .sns .reply:focus { background-image: url("../images/button/chat.png"); background-position: 0px 18px; width: 18px; height: 18px; margin-left: 6px; display: inline-block; vertical-align: text-top; }
+
+.vboard-contents .contents { clear: both; position: relative; min-height: 150px; }
+
+.vboard-contents .info { clear: both; margin-bottom: 30px; position: relative; display: inline-block; width: 100%; }
+.vboard-contents .info .hr { margin: 20px 0px; border-bottom: 1px solid #aaa; }
+.vboard-contents .info .left { float: left; }
+.vboard-contents .info .left .btn { margin-left: 5px; }
+.vboard-contents .info .left .btn:nth-child(1) { margin-left: 0px; }
+.vboard-contents .info .right { float: right; }
+.vboard-contents .info .right .btn { background-color: #8c5f92; color: #fff; }
+.vboard-contents .info .btn { letter-spacing: 1px; background-color: #555; color: #fff; outline: none; }
+.vboard-contents .info .btn:hover { background-color: #333; }
+
+.vboard-contents .reply_area { clear: both; position: relative; }
+.vboard-contents .reply_area .board_reply { padding: 10px; border-top: 1px solid #ddd; }
+.vboard-contents .reply_area .board_reply .hr { margin: 20px 0px; border-bottom: 1px solid #aaa; }
+.vboard-contents .reply_area .board_reply .reply_info { margin-bottom: 3px; display: inline-block; width: 100%; vertical-align: middle; }
+.vboard-contents .reply_area .board_reply .reply_info .left { float: left; }
+.vboard-contents .reply_area .board_reply .reply_info .left b { font-size: 14px; color: #555; }
+.vboard-contents .reply_area .board_reply .reply_info .left p { display: inline-block; font-size: 12px; color: #999; }
+.vboard-contents .reply_area .board_reply .reply_info .right { float: right; font-size: 12px; color: #999; }
+.vboard-contents .reply_area .board_reply .reply_info .right a { color: #999; }
+.vboard-contents .reply_area .board_reply .reply_info .right a:hover,
+.vboard-contents .reply_area .board_reply .reply_info .right a:focus { color: #333; }
+.vboard-contents .reply_area .board_reply .reply_text { font-size: 15px; }
+.vboard-contents .reply_area .board_reply .reply_text a { margin-left: 8px; padding: 1px 4px; font-size: 10px; background-color: #ddd; border-radius: 3px; }
+.vboard-contents .reply_area .board_reply .reply_text a:hover { background-color: #ccc; }
+
+.vboard-contents .reply_area .board_reply_reply { position: relative; padding: 10px 10px 10px 32px; border-top: 1px solid #ddd; background-color: #f7f7f7; }
+.vboard-contents .reply_area .board_reply_reply .hr { margin: 20px 0px; border-bottom: 1px solid #aaa; }
+.vboard-contents .reply_area .board_reply_reply .re_icon { position: absolute; top: 10px; left: 10px; color: #555; }
+.vboard-contents .reply_area .board_reply_reply .reply_info { margin-bottom: 3px; display: inline-block; width: 100%; vertical-align: middle; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .left { float: left; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .left b { font-size: 14px; color: #555; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .left p { display: inline-block; font-size: 12px; color: #999; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .right { float: right; font-size: 12px; color: #999; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .right a { color: #999; }
+.vboard-contents .reply_area .board_reply_reply .reply_info .right a:hover,
+.vboard-contents .reply_area .board_reply_reply .reply_info .right a:focus { color: #333; }
+.vboard-contents .reply_area .board_reply_reply .reply_text { font-size: 15px; }
+.vboard-contents .reply_area .board_reply_reply .reply_text a { margin-left: 8px; padding: 1px 4px; font-size: 10px; background-color: #ddd; border-radius: 3px; }
+.vboard-contents .reply_area .board_reply_reply .reply_text a:hover { background-color: #ccc; }
+
+.vboard-contents .reply_area { clear: both; position: relative; }
+.vboard-contents .reply_area .board_reply_form { padding: 10px; border-top: 1px solid #ddd; }
+.vboard-contents .reply_area .board_reply_form .hr { margin: 20px 0px; border-bottom: 1px solid #aaa; }
+.vboard-contents .reply_area .board_reply_form .reply_info { margin-bottom: 3px; display: inline-block; width: 100%; vertical-align: middle; }
+.vboard-contents .reply_area .board_reply_form .reply_info .left { float: left; }
+.vboard-contents .reply_area .board_reply_form .reply_info .left input { margin-right: 5px; padding: 4.5px 7px; font-size: 13px; color: #555; }
+.vboard-contents .reply_area .board_reply_form .reply_info .right { float: right; color: #fff; }
+.vboard-contents .reply_area .board_reply_form .reply_info .right .btn { font-size: 12px; background-color: #b685bd; outline: none; }
+.vboard-contents .reply_area .board_reply_form .reply_info .right .btn:hover,
+.vboard-contents .reply_area .board_reply_form .reply_info .right .btn:focus { background-color: #8c5f92; color: #fff; }
+.vboard-contents .reply_area .board_reply_form .reply_info .reply_text { clear: both; }
+.vboard-contents .reply_area .board_reply_form .reply_info .reply_text textarea { margin-top: 8px; padding: 4.5px 7px; width: 100%; font-size: 13px; color: #555; resize: none; }
