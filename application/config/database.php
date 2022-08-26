@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;dbname=rokpssf',
 	'hostname' => 'localhost',
-	'username' => 'rokpssf',
-	'password' => 'rokpssf!@123',
-	'database' => 'rokpssf',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
